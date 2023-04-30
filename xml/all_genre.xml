@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<store>
+    <genre name="angl_rock">
+        <records value="high">
+            <record>Nirvana - Nevermind</record>
+            <record>Radiohead - Pablo Honey</record>
+            <record>Rage Against The Machine - Rage Against The Machine</record>
+        </records>
+        <records value="low">
+            <record>Deftones - Ohms</record>
+            <record>Guns N' Roses - Use Your Illusion I</record>
+            <record>Muse - Absolution</record>
+            <record>Imagine Dragons - Evolve</record>
+            <record>Radiohead - The Bends</record>
+            <record>Pixies - Wave of Mutilation</record>
+        </records>
+    </genre>
+    <genre name="black_metal">
+        <records value="high">
+            <record>Burzum - From the Depths of Darkness</record>
+            <record>Mayhem - Wolf's Lair Abyss</record>
+            <record>Intig - Dystymi</record>
+        </records>
+        <records value="low">
+            <record>Darkthrone - Panzerfaus</record>
+            <record>Immortal - Sons of Northern Darkness</record>
+            <record>Emperor - In The Nightside Eclipse</record>
+            <record>Intig - Empty</record>
+        </records>
+    </genre>
+    <genre name="electronic">
+        <records value="high">
+            <record>twenty one pilots - Blurryface</record>
+            <record>The Prodigy - Always Outnumbered, Never Outgunned</record>
+        </records>
+        <records value="low">
+            <record>Ruby My Dear - Brame</record>
+            <record>Mother Mother - O My Heart</record>
+            <record>Mindless Self Indulgence - If</record>
+            <record>Igorrr - Spirituality and Distortion</record>
+            <record>The Prodigy - The Fat of the Land</record>
+        </records>
+    </genre>
+    <genre name="post_punk">
+        <records value="high">
+            <record>Molchat Doma - Этажи</record>
+            <record>Электрофорез - 505</record>
+            <record>Joy Division - Unknown Pleasures</record>
+        </records>
+        <records value="low">
+            <record>Буерак - Пролетариат</record>
+            <record>Июльские Дни - Колокол</record>
+            <record>Chernaya Rechka - Свои</record>
+            <record>Июльские Дни - Спутник</record>
+            <record>Nürnberg - Skryvaj</record>
+        </records>
+    </genre>
+    <genre name="russ_rock">
+        <records value="high">
+            <record>Кино - Группа Крови</record>
+            <record>Аукцыон - Птица</record>
+            <record>Наутилус Помпилиус - Князь Тишины</record>
+        </records>
+        <records value="low">
+            <record>Сплин - Гранатовый альбом</record>
+            <record>Земфира - Земфира</record>
+            <record>Кино - Звезда По Имени Солнце</record>
+            <record>Би-2 - Би-2</record>
+            <record>7Раса - Первый Круг</record>
+            <record>Сплин - Резонанс(1 часть)</record>
+        </records>
+    </genre>
+    <genre name="sib_punk">
+        <records value="high">
+            <record>Егор Летов - Вершки и Корешки</record>
+            <record>Чёрный Лукич - Навсегда</record>
+            <record>Гражданская Оборона - Здорово и Вечно</record>
+        </records>
+        <records value="low">
+            <record>Янка Дягилева - Стыд и Срам</record>
+            <record>Красные Звёзды - Люди с Чистой Совестью</record>
+            <record>Янка Дягилева - Продано</record>
+            <record>Чёрный Лукич - Девочка и Рысь</record>
+            <record>Красные Звёзды - Свобода 2012</record>
+            <record>Инструкция по Выживанию - Внимание</record>
+        </records>
+    </genre>
+</store>
