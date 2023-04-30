@@ -1,0 +1,134 @@
+@import 'fonts_and_basic_settings';
+@import 'catalog_template';
+h2 {
+    color: #e6e6e6;
+}
+h3 {
+    color: #ffffff;
+}
+a {
+    color: #ffffff;
+}
+header {
+    background: linear-gradient(180deg, rgba(137,137,137,0.8) 0%, rgba(0,0,0,0.8) 100%), url(../img/genres/black_metal/monochrome-nature-forest-park-wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    .logo_and_nav {
+        nav {
+            div.nav_butt, .nav_butt_main {
+                border-bottom: #bbbbbb solid 3px;
+            }
+        }
+    }
+    .records {
+        .burzum_darkness {
+            background: url(../img/genres/black_metal/burzum-from-the-depths-of-darkness.jpg);
+            background-size: cover;
+        }
+        .mayhem_wolf {
+            background: url(../img/genres/black_metal/Mayhem_Wolfs_Lair_Abyss.jpeg);
+            background-size: cover;
+        }
+        .intig_dystymi {
+            background: url(../img/genres/black_metal/dystuni.jpg);
+            background-size: cover;
+        }
+
+        .burzum_darkness:hover {
+            background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/burzum-from-the-depths-of-darkness.jpg);
+            background-size: cover;
+        }
+        .mayhem_wolf:hover {
+            background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/Mayhem_Wolfs_Lair_Abyss.jpeg);
+            background-size: cover;
+        }
+        .intig_dystymi:hover {
+            background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/dystuni.jpg);
+            background-size: cover;
+        }
+    }
+}
+.catalog {
+    background: linear-gradient(180deg, rgba(137,137,137,1) 0%, rgba(0,0,0,1) 100%);
+    h2 {
+        color:#ffffff;
+        text-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
+    }
+    .darkthrone_panzerfaust {
+        background: url(../img/genres/black_metal/Darkthrone_Panzerfaust.jpg);
+        background-size: cover;
+    }
+    .immortal_sons {
+        background: url(../img/genres/black_metal/sons.jpg);
+        background-size: cover;
+    }
+    .emperor_eclipse {
+        background: url(../img/genres/black_metal/emperor.jpg);
+        background-size: cover;
+    }
+    .intig_empty {
+        background: url(../img/genres/black_metal/empty.jpg);
+        background-size: cover;
+    }
+    .darkthrone_panzerfaust:hover {
+        background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/Darkthrone_Panzerfaust.jpg);
+        background-size: cover;
+    }
+    .immortal_sons:hover {
+        background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/sons.jpg);
+        background-size: cover;
+    }
+    .emperor_eclipse:hover {
+        background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/emperor.jpg);
+        background-size: cover;
+    }
+    .intig_empty:hover {
+        background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/empty.jpg);
+        background-size: cover;
+    }
+}
+@media (max-width: 768px) {
+    .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+        background-color: #b0b0b0;
+    }
+    .menu__box {
+        background-color: #ECEFF1;
+    }
+    .menu__item {
+        color: #333;
+    }
+}
+@media (max-width: 768px) and (min-width: 320px) {
+    header .records {
+        .burzum_darkness {
+            background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/burzum-from-the-depths-of-darkness.jpg);
+            background-size: cover;
+        }
+        .mayhem_wolf {
+            background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/Mayhem_Wolfs_Lair_Abyss.jpeg);
+            background-size: cover;
+        }
+        .intig_dystymi {
+            background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/dystuni.jpg);
+            background-size: cover;
+        }
+    }
+    .catalog {
+        .darkthrone_panzerfaust {
+            background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/Darkthrone_Panzerfaust.jpg);
+            background-size: cover;
+        }
+        .immortal_sons {
+            background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/sons.jpg);
+            background-size: cover;
+        }
+        .emperor_eclipse {
+            background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/emperor.jpg);
+            background-size: cover;
+        }
+        .intig_empty {
+            background: linear-gradient(180deg, rgba(137,137,137,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../img/genres/black_metal/empty.jpg);
+            background-size: cover;
+        }
+    }
+}

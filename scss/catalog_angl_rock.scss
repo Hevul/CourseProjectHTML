@@ -1,0 +1,166 @@
+@import 'fonts_and_basic_settings';
+@import 'catalog_template';
+h2 {
+    color: #FFBCBC;
+}
+h3 {
+    color: #f59898;
+}
+a {
+    color: #ffd3d3;
+}
+header {
+    background: linear-gradient(360deg, rgba(0,0,0,0.6) 0%, rgba(212,83,83,0.6) 100%), url(../img/genres/angl_rock/angl_rock.jpg);
+    background-position: center;
+    background-size: cover;
+    .logo_and_nav {
+        nav {
+            div.nav_butt, .nav_butt_main {
+                border-bottom: #f59898 solid 3px;
+            }
+            div.nav_butt:hover, .nav_butt_main:hover {
+                background: #ffd3d3;
+                text-shadow: #4b25252f 5px 5px;
+                border-bottom: #000000b3 solid 3px;
+                border-right: #000000b3 solid 3px;
+                transition: 0.3s linear;
+                a {
+                    color:#804545;
+                }
+            }
+        }
+    }
+    .records {
+        .nirvana_nevermind {
+            background: url(../img/genres/angl_rock/nevermind.jpg);
+            background-size: cover;
+        }
+        .radiohead_pabloHoney {
+            background: url(../img/genres/angl_rock/Pablohoney_cover.jpg);
+            background-size: cover;
+        }
+        .ragm_ragm {
+            background: url(../img/genres/angl_rock/ratm_rageagainst.jpg);
+            background-size: cover;
+        }
+        .nirvana_nevermind:hover {
+            background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/nevermind.jpg);
+            background-size: cover;
+        }
+        .radiohead_pabloHoney:hover {
+            background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/Pablohoney_cover.jpg);
+            background-size: cover;
+        }
+        .ragm_ragm:hover {
+            background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/ratm_rageagainst.jpg);
+            background-size: cover;
+        }
+    }
+}
+.catalog {
+    background: linear-gradient(360deg, rgba(198,63,68,1) 0%, rgb(0, 0, 0) 100%);
+    .deftones_ohms {
+        background: url(../img/genres/angl_rock/ohms.jpg);
+        background-size: cover;
+    }
+    .guns_Use_Your_Illusion_I {
+        background: url(../img/genres/angl_rock/Use_Your_Illusion_I.jpeg);
+        background-size: cover;
+    }
+    .muse_absolution {
+        background: url(../img/genres/angl_rock/muse.jpg);
+        background-size: cover;
+    }
+    .imagine_dragons_evolve {
+        background: url(../img/genres/angl_rock/Imagine_Dragons_Evolve_Cover.jpg);
+        background-size: cover;
+    }
+    .radiohead_the_bends {
+        background: url(../img/genres/angl_rock/Radiohead_bends.jpg);
+        background-size: cover;
+    }
+    .pixies_wave_of_mutilation {
+        background: url(../img/genres/angl_rock/pixies.jpg);
+        background-size: cover;
+    }
+    .deftones_ohms:hover {
+        background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/ohms.jpg);
+        background-size: cover;
+    }
+    .guns_Use_Your_Illusion_I:hover {
+        background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/Use_Your_Illusion_I.jpeg);
+        background-size: cover;
+    }
+    .muse_absolution:hover {
+        background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/muse.jpg);
+        background-size: cover;
+    }
+    .imagine_dragons_evolve:hover {
+        background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/Imagine_Dragons_Evolve_Cover.jpg);
+        background-size: cover;
+    }
+    .radiohead_the_bends:hover {
+        background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/Radiohead_bends.jpg);
+        background-size: cover;
+    }
+    .pixies_wave_of_mutilation:hover {
+        background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/pixies.jpg);
+        background-size: cover;
+    }
+}
+@media (max-width: 768px) {
+    .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+        background-color: #a55858;
+    }
+    .menu__box {
+        background-color: #eca9a9;
+    }
+    .menu__item {
+        color: #9a5353;
+    }
+    .menu__item:hover {
+        background-color: #CFD8DC;
+    }
+}
+@media (max-width: 768px) and (min-width: 320px) {
+    header .records {
+        .nirvana_nevermind {
+            background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/nevermind.jpg);
+            background-size: cover;
+        }
+        .radiohead_pabloHoney {
+            background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/Pablohoney_cover.jpg);
+            background-size: cover;
+        }
+        .ragm_ragm {
+            background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/ratm_rageagainst.jpg);
+            background-size: cover;
+        }
+    }
+    .catalog {
+        .deftones_ohms {
+            background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/ohms.jpg);
+            background-size: cover;
+        }
+        .guns_Use_Your_Illusion_I {
+            background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/Use_Your_Illusion_I.jpeg);
+            background-size: cover;
+        }
+        .muse_absolution {
+            background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/muse.jpg);
+            background-size: cover;
+        }
+        .imagine_dragons_evolve {
+            background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/Imagine_Dragons_Evolve_Cover.jpg);
+            background-size: cover;
+        }
+        .radiohead_the_bends {
+            background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/Radiohead_bends.jpg);
+            background-size: cover;
+        }
+        .pixies_wave_of_mutilation {
+            background: linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/angl_rock/pixies.jpg);
+            background-size: cover;
+        }
+    }
+}

@@ -1,0 +1,136 @@
+@import 'fonts_and_basic_settings';
+@import 'catalog_template';
+h2 {
+    color: #ffffff;
+    text-shadow: rgba(0, 0, 0, 0.2) 5px 5px;
+}
+h3 {
+    color: #ffffff;
+}
+a {
+    color: #ffffff;
+}
+header {
+    background: linear-gradient(180deg, rgba(67,194,235,0.7) 0%, rgba(200,119,61,0.7) 100%), url(../img/genres/electronic/the_fat_of_the_land-front.jpeg);
+    background-position: center;
+    background-size: cover;
+    .logo_and_nav {
+        nav {
+            div.nav_butt, .nav_butt_main {
+                border-bottom: #bbbbbb solid 3px;
+            }
+        }
+    }
+    .records {
+        .pilots_blur {
+            background: url(../img/genres/electronic/pilots_blur.jpeg);
+            background-size: cover;
+        }
+        .prodigy_always {
+            background: url(../img/genres/electronic/prodigy_always.jpg);
+            background-size: cover;
+        }
+
+        .pilots_blur:hover {
+            background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/pilots_blur.jpeg);
+            background-size: cover;
+        }
+        .prodigy_always:hover {
+            background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/prodigy_always.jpg);
+            background-size: cover;
+        }
+    }
+}
+.catalog {
+    background: linear-gradient(360deg, rgba(67,194,235,1) 0%, rgba(200,119,61,1) 100%);
+    h2 {
+        color:#ffffff;
+        text-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
+    }
+    .rudy_brame {
+        background: url(../img/genres/electronic/brame.jpg);
+        background-size: cover;
+    }
+    .mother_heart {
+        background: url(../img/genres/electronic/heart.jpg);
+        background-size: cover;
+    }
+    .mindless_if {
+        background: url(../img/genres/electronic/Msi_if_cover.jpg);
+        background-size: cover;
+    }
+    .igorrr_dist {
+        background: url(../img/genres/electronic/distortion.jpg);
+        background-size: cover;
+    }
+    .the_fat_of_the_land-front {
+        background: url(../img/genres/electronic/the_fat_of_the_land-front.jpeg);
+        background-size: cover;
+    }
+
+    .rudy_brame:hover {
+        background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/brame.jpg);
+        background-size: cover;
+    }
+    .mother_heart:hover {
+        background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/heart.jpg);
+        background-size: cover;
+    }
+    .mindless_if:hover {
+        background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/Msi_if_cover.jpg);
+        background-size: cover;
+    }
+    .igorrr_dist:hover {
+        background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/distortion.jpg);
+        background-size: cover;
+    }
+    .the_fat_of_the_land-front:hover {
+        background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/the_fat_of_the_land-front.jpeg);
+        background-size: cover;
+    }
+}
+@media (max-width: 768px) {
+    .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+        background-color: #b0b0b0;
+    }
+    .menu__box {
+        background-color: #ECEFF1;
+    }
+    .menu__item {
+        color: #333;
+    }
+}
+@media (max-width: 768px) and (min-width: 320px) {
+    header .records {
+        .pilots_blur {
+            background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/pilots_blur.jpeg);
+            background-size: cover;
+        }
+        .prodigy_always {
+            background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/prodigy_always.jpg);
+            background-size: cover;
+        }
+    }
+    .catalog {
+        .rudy_brame {
+            background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/brame.jpg);
+            background-size: cover;
+        }
+        .mother_heart {
+            background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/heart.jpg);
+            background-size: cover;
+        }
+        .mindless_if {
+            background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/Msi_if_cover.jpg);
+            background-size: cover;
+        }
+        .igorrr_dist {
+            background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/distortion.jpg);
+            background-size: cover;
+        }
+        .the_fat_of_the_land-front {
+            background: linear-gradient(180deg, rgba(67,194,235,0.6) 0%, rgba(200,119,61,0.6) 100%), url(../img/genres/electronic/the_fat_of_the_land-front.jpeg);
+            background-size: cover;
+        }
+    }
+}

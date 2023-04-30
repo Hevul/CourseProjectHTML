@@ -1,0 +1,167 @@
+@import 'fonts_and_basic_settings';
+@import 'catalog_template';
+h2 {
+    color: #FFBCBC;
+}
+h3 {
+    color: #E46C6C;
+}
+a {
+    color: #FFBCBC;
+}
+header {
+    background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(212,83,83,0.6) 100%), url(../img/backgrounds/Granatovy_albom_cover_hq.jpg);
+    background-position: center;
+    background-size: cover;
+    .logo_and_nav {
+        nav {
+            div.nav_butt, .nav_butt_main {
+                border-bottom: #804545 solid 3px;
+            }
+            div.nav_butt:hover, .nav_butt_main:hover {
+                background: #FFBCBC;
+                text-shadow: #4b25252f 5px 5px;
+                border-bottom: #000000b3 solid 3px;
+                border-right: #000000b3 solid 3px;
+                transition: 0.3s linear;
+                a {
+                    color:#804545;
+                }
+            }
+        }
+    }
+    .records {
+        .kino_grypa {
+            background: url(../img/genres/russ_rock/kino_grypa_krovi.jpg);
+            background-size: cover;
+        }
+        .auc {
+            background: url(../img/genres/russ_rock/aucbird.jfif);
+            background-size: cover;
+        }
+        .naut {
+            background: url(../img/genres/russ_rock/naut.jpg);
+            background-size: cover;
+        }
+        .kino_grypa:hover {
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/kino_grypa_krovi.jpg);
+            background-size: cover;
+        }
+        .auc:hover {
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/aucbird.jfif);
+            background-size: cover;
+        }
+        .naut:hover {
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/naut.jpg);
+            background-size: cover;
+        }
+    }
+}
+.catalog {
+    background: linear-gradient(180deg, rgba(198,63,68,1) 0%, rgba(45,9,16,1) 100%);
+    .granat {
+        background: url(../img/genres/russ_rock/Granatovy_albom_cover.jpg);
+        background-size: cover;
+    }
+    .zemfira {
+        background: url(../img/genres/russ_rock/zemfira.jfif);
+        background-size: cover;
+    }
+    .kino_zvezda {
+        background: url(../img/genres/russ_rock/kino_zvezda.jpg);
+        background-size: cover;
+    }
+    .bi2 {
+        background: url(../img/genres/russ_rock/bi2koralbl.jfif);
+        background-size: cover;
+    }
+    .rasa {
+        background: url(../img/genres/russ_rock/71krug.jfif);
+        background-size: cover;
+    }
+    .splin_res {
+        background: url(../img/genres/russ_rock/splinres.jfif);
+        background-size: cover;
+    }
+    .granat:hover {
+        background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/Granatovy_albom_cover.jpg);
+        background-size: cover;
+    }
+    .zemfira:hover {
+        background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/zemfira.jfif);
+        background-size: cover;
+    }
+    .kino_zvezda:hover {
+        background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/kino_zvezda.jpg);
+        background-size: cover;
+    }
+    .bi2:hover {
+        background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/bi2koralbl.jfif);
+        background-size: cover;
+    }
+    .rasa:hover {
+        background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/71krug.jfif);
+        background-size: cover;
+    }
+    .splin_res:hover {
+        background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/splinres.jfif);
+        background-size: cover;
+    }
+}
+@media (max-width: 768px) {
+
+    .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+        background-color: #9a5353;
+    }
+    .menu__box {
+        background-color: #eca9a9;
+    }
+    .menu__item {
+        color: #9a5353;
+    }
+    .menu__item:hover {
+        background-color: #CFD8DC;
+    }
+}
+@media (max-width: 768px) and (min-width: 320px) {
+    header .records {
+        .kino_grypa {
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/kino_grypa_krovi.jpg);
+            background-size: cover;
+        }
+        .auc {
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/aucbird.jfif);
+            background-size: cover;
+        }
+        .naut {
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/naut.jpg);
+            background-size: cover;
+        }
+    }
+    .catalog {
+        .granat {
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/Granatovy_albom_cover.jpg);
+            background-size: cover;
+        }
+        .zemfira {
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/zemfira.jfif);
+            background-size: cover;
+        }
+        .kino_zvezda {
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/kino_zvezda.jpg);
+            background-size: cover;
+        }
+        .bi2 {
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/bi2koralbl.jfif);
+            background-size: cover;
+        }
+        .rasa {
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/71krug.jfif);
+            background-size: cover;
+        }
+        .splin_res {
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(134,45,45,0.7) 100%), url(../img/genres/russ_rock/splinres.jfif);
+            background-size: cover;
+        }
+    }
+}
