@@ -1,0 +1,581 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+html {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Montserrat;
+  src: url(../fonts/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-weight: 500;
+  font-family: Montserrat;
+  src: url(../fonts/static/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-weight: 300;
+  font-family: Montserrat;
+  src: url(../fonts/static/Montserrat-Light.ttf);
+}
+h1 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  word-spacing: 10px;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+h3 {
+  width: 100%;
+  display: none;
+  font-size: 24px;
+  font-weight: 400;
+  word-spacing: 5px;
+  font-family: "Montserrat";
+  text-align: center;
+  text-shadow: 1px 0 1px #000000, 0 1px 1px #000000, -1px 0 1px #000000, 0 -1px 1px #000000;
+}
+
+a {
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: 2px;
+}
+
+.main_a {
+  font-size: 26px;
+  word-spacing: 10px;
+  letter-spacing: 4px;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+}
+header .header_text {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+header .logo_and_nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+header .logo_and_nav div.logo {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  margin-left: 1%;
+  width: 67px;
+  height: 67px;
+  background: url(../svg/logo.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+header .logo_and_nav nav {
+  width: 90%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+header .logo_and_nav nav div.nav_butt, header .logo_and_nav nav .nav_butt_main {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 5px;
+}
+header .logo_and_nav nav div.nav_butt:hover, header .logo_and_nav nav .nav_butt_main:hover {
+  background: rgb(255, 255, 255);
+  text-shadow: rgba(0, 0, 0, 0.1411764706) 5px 5px;
+  border-bottom: rgba(0, 0, 0, 0.7019607843) solid 3px;
+  border-right: rgba(0, 0, 0, 0.7019607843) solid 3px;
+  transition: 0.3s linear;
+}
+header .logo_and_nav nav div.nav_butt:hover a, header .logo_and_nav nav .nav_butt_main:hover a {
+  color: #000000;
+}
+header h2 {
+  margin-top: 13%;
+}
+header .records {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header .records div {
+  margin-top: 3%;
+  border-radius: 40px;
+  width: 300px;
+  height: 300px;
+}
+header .records div a {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  height: 100%;
+}
+header .records div:hover h3 {
+  display: inline-block;
+}
+
+.catalog {
+  width: 100%;
+}
+.catalog h2 {
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+.catalog .records {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.catalog .records div {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  border-radius: 40px;
+  width: 300px;
+  height: 300px;
+}
+.catalog .records div a {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  height: 100%;
+}
+.catalog .records div:hover h3 {
+  display: inline-block;
+}
+
+footer {
+  color: white;
+  display: flex;
+  background: black;
+  width: 100%;
+  height: 45%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer div {
+  width: 20%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+footer .networks_div {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+footer .networks_div div {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+footer .networks_div .vk {
+  background: url(../svg/VK.svg);
+  background-repeat: no-repeat;
+}
+footer .networks_div .insta {
+  background: url(../svg/Insta.svg);
+  background-repeat: no-repeat;
+  margin-left: 10%;
+}
+footer .networks_div .tiktok {
+  background: url(../svg/TikTok.svg);
+  background-repeat: no-repeat;
+  margin-left: 10%;
+}
+footer h1 {
+  text-shadow: rgba(255, 255, 255, 0.15) 10px 10px;
+}
+footer h3, footer h4, footer p {
+  padding-top: 5%;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer h3 {
+  text-align: left;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+}
+footer h4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+footer p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+@media (min-width: 2560px) {
+  h1 {
+    font-size: 52px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  a {
+    font-size: 38px;
+  }
+  .main_a {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 38px;
+  }
+  header .records div {
+    width: 500px;
+    height: 500px;
+  }
+  .catalog .records div {
+    width: 500px;
+    height: 500px;
+  }
+  footer h3 {
+    line-height: 35px;
+    font-size: 28px;
+  }
+  footer h4, footer p {
+    line-height: 35px;
+    font-size: 24px;
+  }
+  .networks_div div {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .main_a {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  header .records div {
+    width: 200px;
+    height: 200px;
+  }
+  .catalog .records div {
+    width: 200px;
+    height: 200px;
+  }
+  footer h3 {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  footer h4 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  footer p {
+    line-height: 20px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .nav_butt {
+    display: none;
+  }
+  #menu__toggle {
+    opacity: 0;
+  }
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+  }
+  .menu__btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: "";
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: 200px;
+    width: 40%;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
+}
+@media (min-width: 769px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 16px;
+  }
+  header .logo_and_nav div.logo {
+    width: 50px;
+    height: 50px;
+  }
+  header {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 16px;
+    display: inline-block;
+  }
+  .main_a {
+    font-size: 17px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+  }
+  .catalog .records, header .records {
+    width: -moz-fit-content;
+    width: fit-content;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .records div {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 250px;
+    height: 250px;
+  }
+  .catalog .records div {
+    width: 250px;
+    height: 250px;
+    margin-top: 8%;
+    margin-bottom: 6%;
+  }
+  footer div {
+    width: 70%;
+  }
+  footer h3 {
+    text-align: left;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  footer h4 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  footer p {
+    line-height: 20px;
+    font-size: 12px;
+  }
+  footer h1 {
+    display: none;
+  }
+  .menu__item {
+    font-size: 17px;
+  }
+}
+h2 {
+  color: #ffffff;
+  text-shadow: rgba(0, 0, 0, 0.2) 5px 5px;
+}
+
+h3 {
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+header {
+  background: linear-gradient(180deg, rgba(67, 194, 235, 0.7) 0%, rgba(200, 119, 61, 0.7) 100%), url(../img/genres/electronic/the_fat_of_the_land-front.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+header .logo_and_nav nav div.nav_butt, header .logo_and_nav nav .nav_butt_main {
+  border-bottom: #bbbbbb solid 3px;
+}
+header .records .pilots_blur {
+  background: url(../img/genres/electronic/pilots_blur.jpeg);
+  background-size: cover;
+}
+header .records .prodigy_always {
+  background: url(../img/genres/electronic/prodigy_always.jpg);
+  background-size: cover;
+}
+header .records .pilots_blur:hover {
+  background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/pilots_blur.jpeg);
+  background-size: cover;
+}
+header .records .prodigy_always:hover {
+  background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/prodigy_always.jpg);
+  background-size: cover;
+}
+
+.catalog {
+  background: linear-gradient(360deg, rgb(67, 194, 235) 0%, rgb(200, 119, 61) 100%);
+}
+.catalog h2 {
+  color: #ffffff;
+  text-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
+}
+.catalog .rudy_brame {
+  background: url(../img/genres/electronic/brame.jpg);
+  background-size: cover;
+}
+.catalog .mother_heart {
+  background: url(../img/genres/electronic/heart.jpg);
+  background-size: cover;
+}
+.catalog .mindless_if {
+  background: url(../img/genres/electronic/Msi_if_cover.jpg);
+  background-size: cover;
+}
+.catalog .igorrr_dist {
+  background: url(../img/genres/electronic/distortion.jpg);
+  background-size: cover;
+}
+.catalog .the_fat_of_the_land-front {
+  background: url(../img/genres/electronic/the_fat_of_the_land-front.jpeg);
+  background-size: cover;
+}
+.catalog .rudy_brame:hover {
+  background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/brame.jpg);
+  background-size: cover;
+}
+.catalog .mother_heart:hover {
+  background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/heart.jpg);
+  background-size: cover;
+}
+.catalog .mindless_if:hover {
+  background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/Msi_if_cover.jpg);
+  background-size: cover;
+}
+.catalog .igorrr_dist:hover {
+  background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/distortion.jpg);
+  background-size: cover;
+}
+.catalog .the_fat_of_the_land-front:hover {
+  background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/the_fat_of_the_land-front.jpeg);
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #b0b0b0;
+  }
+  .menu__box {
+    background-color: #ECEFF1;
+  }
+  .menu__item {
+    color: #333;
+  }
+}
+@media (max-width: 768px) and (min-width: 320px) {
+  header .records .pilots_blur {
+    background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/pilots_blur.jpeg);
+    background-size: cover;
+  }
+  header .records .prodigy_always {
+    background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/prodigy_always.jpg);
+    background-size: cover;
+  }
+  .catalog .rudy_brame {
+    background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/brame.jpg);
+    background-size: cover;
+  }
+  .catalog .mother_heart {
+    background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/heart.jpg);
+    background-size: cover;
+  }
+  .catalog .mindless_if {
+    background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/Msi_if_cover.jpg);
+    background-size: cover;
+  }
+  .catalog .igorrr_dist {
+    background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/distortion.jpg);
+    background-size: cover;
+  }
+  .catalog .the_fat_of_the_land-front {
+    background: linear-gradient(180deg, rgba(67, 194, 235, 0.6) 0%, rgba(200, 119, 61, 0.6) 100%), url(../img/genres/electronic/the_fat_of_the_land-front.jpeg);
+    background-size: cover;
+  }
+}/*# sourceMappingURL=catalog_electronick.css.map */

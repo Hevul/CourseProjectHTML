@@ -1,0 +1,527 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+html {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Montserrat;
+  src: url(../fonts/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-weight: 500;
+  font-family: Montserrat;
+  src: url(../fonts/static/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-weight: 300;
+  font-family: Montserrat;
+  src: url(../fonts/static/Montserrat-Light.ttf);
+}
+h1 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  word-spacing: 10px;
+  text-shadow: rgba(255, 255, 255, 0.15) 5px 5px;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+a {
+  font-weight: 400;
+  font-family: "Montserrat";
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: 2px;
+}
+
+.main_a {
+  color: black;
+  font-size: 26px;
+  word-spacing: 10px;
+  letter-spacing: 4px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/backgrounds/record_site.jpg);
+  background-position: center;
+  background-size: cover;
+}
+main .logo_and_nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+main .logo_and_nav div.logo {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  margin-left: 1%;
+  width: 67px;
+  height: 67px;
+  background: url(../svg/logo.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+main .logo_and_nav nav {
+  width: 90%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+main .logo_and_nav nav div.nav_butt {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: white solid 3px;
+  border-radius: 5px;
+}
+main .logo_and_nav nav .nav_butt_main {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: black solid 3px;
+  border-radius: 5px;
+}
+main .logo_and_nav nav div.nav_butt:hover, main .logo_and_nav nav .nav_butt_main:hover {
+  background: rgb(255, 255, 255);
+  text-shadow: rgba(0, 0, 0, 0.1411764706) 5px 5px;
+  border-bottom: rgba(0, 0, 0, 0.7019607843) solid 3px;
+  border-right: rgba(0, 0, 0, 0.7019607843) solid 3px;
+  transition: 0.3s linear;
+}
+main .logo_and_nav nav div.nav_butt:hover a, main .logo_and_nav nav .nav_butt_main:hover a {
+  color: #000000;
+}
+main .img_and_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main .img_and_info .img {
+  width: 550px;
+  height: 550px;
+  border-radius: 40px;
+  background: url(../img/genres/russ_rock/Granatovy_albom_cover.jpg);
+  background-size: 100%;
+  background-position: center;
+  margin-top: 4%;
+  margin-left: 6%;
+}
+main .img_and_info .img p {
+  display: none;
+}
+main .img_and_info .info {
+  margin-right: 3%;
+  width: 46%;
+  margin-top: 4%;
+}
+main .img_and_info .info .h1_name {
+  text-align: center;
+}
+main .img_and_info .info p {
+  color: white;
+  margin-top: 4%;
+  margin-bottom: 6%;
+  font-size: 22px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  word-spacing: 6px;
+  letter-spacing: 2px;
+  text-indent: 40px;
+}
+main .img_and_info .info ol {
+  margin-top: 1%;
+  display: flex;
+  height: 35%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+main .img_and_info .info ol h3 {
+  width: -moz-max-content;
+  width: max-content;
+  margin-right: 2.5%;
+  color: white;
+  padding-bottom: 3px;
+  padding-top: 8px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 200;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  border-bottom: white solid 1px;
+}
+main .img_and_info .info button {
+  margin-top: 2%;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding-bottom: 8px;
+  text-shadow: rgba(248, 122, 122, 0.1411764706) 5px 5px;
+  border-bottom: #F87A7A solid 4px;
+  transition: 0.3s linear;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+main .img_and_info .info button .cost, main .img_and_info .info button .buy {
+  color: #F87A7A;
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  word-spacing: 10px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+main .img_and_info .info button .buy {
+  display: none;
+}
+main .img_and_info .info button:hover {
+  background: rgb(255, 255, 255);
+  border-color: #4f4f4f;
+}
+main .img_and_info .info button:hover .cost {
+  display: none;
+}
+main .img_and_info .info button:hover .buy {
+  display: inline-block;
+  color: #000000;
+  text-shadow: rgba(0, 0, 0, 0.1411764706) 5px 5px;
+}
+
+footer {
+  color: white;
+  display: flex;
+  background: black;
+  width: 100%;
+  height: 45%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer div {
+  width: 20%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+footer .networks_div {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+footer .networks_div div {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+footer .networks_div .vk {
+  background: url(../svg/VK.svg);
+  background-repeat: no-repeat;
+}
+footer .networks_div .insta {
+  background: url(../svg/Insta.svg);
+  background-repeat: no-repeat;
+  margin-left: 10%;
+}
+footer .networks_div .tiktok {
+  background: url(../svg/TikTok.svg);
+  background-repeat: no-repeat;
+  margin-left: 10%;
+}
+footer h1 {
+  text-shadow: rgba(255, 255, 255, 0.15) 10px 10px;
+}
+footer h3, footer h4, footer p {
+  padding-top: 5%;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer h3 {
+  text-align: left;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+}
+footer h4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+footer p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+@media (min-width: 2560px) {
+  h1 {
+    font-size: 52px;
+  }
+  main .img_and_info .img {
+    width: 1000px;
+    height: 1000px;
+  }
+  main .img_and_info .info p {
+    font-size: 44px;
+  }
+  main .img_and_info .info .cost, main .img_and_info .info .buy {
+    font-size: 52px;
+  }
+  main .img_and_info .info ol h3 {
+    font-size: 36px;
+    border-bottom: white solid 2px;
+  }
+  a {
+    font-size: 38px;
+  }
+  .main_a {
+    font-size: 40px;
+  }
+  footer h3 {
+    line-height: 35px;
+    font-size: 28px;
+  }
+  footer h4, footer p {
+    line-height: 35px;
+    font-size: 24px;
+  }
+  .networks_div div {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media (min-width: 1440px) {
+  main .logo_and_nav nav .nav_butt_main {
+    margin-right: 12.5%;
+  }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  h1 {
+    font-size: 22px;
+  }
+  main .img_and_info .img {
+    width: 400px;
+    height: 400px;
+  }
+  main .img_and_info .info p {
+    font-size: 16px;
+  }
+  main .img_and_info .info button .cost, main .img_and_info .info button .buy {
+    font-size: 22px;
+  }
+  main .img_and_info .info ol h3 {
+    font-size: 12px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .main_a {
+    font-size: 22px;
+  }
+  footer h3 {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  footer h4 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  footer p {
+    line-height: 20px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .nav_butt {
+    display: none;
+  }
+  #menu__toggle {
+    opacity: 0;
+  }
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #b0b0b0;
+  }
+  .menu__btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: "";
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: 200px;
+    width: 40%;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
+}
+@media (min-width: 769px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+@media (max-width: 768px) and (min-width: 320px) {
+  h1 {
+    text-align: center;
+    font-size: 16px;
+  }
+  main {
+    background: url(../img/backgrounds/record_site_rotated1.jpg);
+    background-size: cover;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  main .img_and_info {
+    flex-direction: column;
+  }
+  main .img_and_info .img {
+    width: 375px;
+    height: 375px;
+    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main .img_and_info .info {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main .img_and_info .info p {
+    font-size: 16px;
+  }
+  main .img_and_info .info button {
+    margin-top: 8%;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: #F87A7A solid 4px;
+  }
+  main .img_and_info .info button .cost, main .img_and_info .info button .buy {
+    font-size: 18px;
+  }
+  main .img_and_info .info ol {
+    margin-top: 2%;
+  }
+  main .img_and_info .info ol li {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main .img_and_info .info ol h3 {
+    font-size: 12px;
+  }
+  header .logo_and_nav div.logo {
+    width: 50px;
+    height: 50px;
+  }
+  .main_a {
+    font-size: 17px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+  }
+  footer div {
+    width: 70%;
+  }
+  footer h3 {
+    text-align: left;
+    line-height: 15px;
+    font-size: 16px;
+  }
+  footer h4 {
+    font-size: 14px;
+    line-height: 15px;
+  }
+  footer p {
+    padding-top: 10px;
+    line-height: 15px;
+    font-size: 12px;
+  }
+  footer h1 {
+    display: none;
+  }
+  .menu__item {
+    font-size: 17px;
+  }
+}
+@media (max-width: 425px) and (min-width: 320px) {
+  .h1_name {
+    margin-top: 20%;
+  }
+  main .img_and_info .img {
+    width: 275px;
+    height: 275px;
+  }
+}/*# sourceMappingURL=record_site.css.map */
