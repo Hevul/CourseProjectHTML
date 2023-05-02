@@ -397,6 +397,12 @@ footer p {
     font-size: 12px;
   }
 }
+@media (max-width: 1024px) {
+  header .logo_and_nav nav .nav_butt a {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+}
 @media (max-width: 768px) {
   .nav_butt {
     display: none;
